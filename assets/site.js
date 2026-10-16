@@ -1,0 +1,1 @@
+document.querySelectorAll('a[href^="http"]').forEach(a=>{a.rel="noopener noreferrer"});document.querySelectorAll('form').forEach(f=>{f.addEventListener('submit',()=>{const btn=f.querySelector('button[type="submit"],input[type="submit"]');if(btn){btn.disabled=true;btn.textContent="Sending…";setTimeout(()=>{btn.disabled=false;btn.textContent="Send message"},7000)}})});
