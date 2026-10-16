@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;800&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-<style>/* Critical layout prevents oversized SVG if external CSS is delayed */html{font-family:Arial,sans-serif}body{margin:0}img{max-width:100%;height:auto}.container{width:min(1150px,92%);margin:0 auto}.site-header{background:#fff;border-bottom:1px solid #dbe5eb;position:relative;z-index:20}.nav-wrap{min-height:74px;display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}.brand{display:inline-flex;align-items:center;gap:10px;text-decoration:none;color:#10324b;font-weight:800}.brand-logo,.brand img,.footer-brand img{width:48px!important;height:48px!important;min-width:48px;max-width:48px!important;max-height:48px!important;object-fit:contain;flex:none;display:block}.brand-text{font-size:21px;line-height:1.1}.brand-text small{display:block;font-size:11px}.brand-flags{display:flex;gap:5px}.navlinks{display:flex;align-items:center;gap:6px;flex-wrap:wrap}.navlinks a{padding:8px 9px;text-decoration:none;color:#10324b;font-size:13px}.top-strip{background:#10324b;color:#fff;padding:8px;text-align:center;font-size:12px}.menu-btn{display:none}@media(max-width:900px){.nav-wrap{align-items:center}.navlinks{width:100%;justify-content:center;padding-bottom:10px}.navlinks a{font-size:12px}}@media(max-width:600px){.brand-logo,.brand img{width:42px!important;height:42px!important;min-width:42px;max-width:42px!important}.navlinks{gap:2px}.navlinks a{font-size:11px;padding:5px}}</style></head>
+</head>
 <body>
 <div class="top-strip">தமிழ் • Victoria, BC • Canada + Tamil heritage on Vancouver Island</div>
 
@@ -23,7 +23,7 @@
       <span class="brand-flags"><span>🇨🇦</span><span>🇮🇳</span></span>
     </a>
     <button id="menu" class="menu-btn" aria-label="Toggle navigation" aria-expanded="false">☰</button>
-    <nav id="navlinks" class="navlinks" aria-label="Main navigation"><a class="" href="index.html">Home</a><a class="" href="about.html">VITS</a><a class="" href="culture.html">Heritage</a><a class="" href="tamilnadu.html">Tamil Nadu</a><a class="" href="newcomers.html">Newcomers</a><a class="" href="students.html">Students</a><a class="active" href="calendar.html">Calendar</a><a class="" href="contact.html">Contact</a></nav>
+    <nav id="navlinks" class="navlinks" aria-label="Main navigation"><a class="" href="index.html">Home</a><a class="" href="about.html">VITS</a><a class="" href="culture.html">Heritage & Tamil Nadu</a><a class="" href="newcomers.html">Newcomers</a><a class="" href="students.html">Students</a><a class="active" href="calendar.html">Calendar</a><a class="" href="contact.html">Contact</a></nav>
   </div>
 </header>
 <main>
@@ -33,45 +33,13 @@
       <span class="eyebrow">Festival calendar</span>
       <h1>A visual annual rhythm for Tamil celebrations.</h1>
       <p class="lead">Use this page as a friendly overview. Exact tithi, Amavasai, Pournami, and festival timings vary by year and location, so please confirm with a live panchangam.</p>
-      <div class="button-row">
-        <a class="btn" href="https://www.drikpanchang.com/tamil/tamil-calendar.html" target="_blank">Open Tamil calendar</a>
-        <a class="btn btn-light" href="https://www.drikpanchang.com/panchang/day-panchang.html" target="_blank">Open Panchangam</a>
-      </div>
+      <div class="button-row"><a class="btn" href="https://www.drikpanchang.com/tamil/tamil-calendar.html" target="_blank">Open Tamil calendar</a><a class="btn btn-light" href="https://www.drikpanchang.com/panchang/day-panchang.html" target="_blank">Open Panchangam</a></div>
     </div>
-    <div class="festival-badge">🌾<span>Pongal • Thai • Heritage Month</span></div>
+    <figure class="calendar-hero"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/2019_kolam_decoration_for_Pongal_festival%2C_South_India.jpg?width=1400" alt="Tamil festival visual with kolam and festive colors"><div class="calendar-overlay"><strong>Pongal · Thai · Heritage Month</strong></div></figure>
   </div>
 </section>
-
-<section class="section">
-  <div class="container month-grid">
-    <article class="month-card"><span>JAN</span><h3>Tamil Heritage Month</h3><p>Community sharing, identity, arts, and language pride in Canada.</p></article>
-    <article class="month-card highlight"><span>JAN</span><h3>Thai Pongal</h3><p>Harvest gratitude, sweet pongal, kolam, sugarcane, and family gathering.</p></article>
-    <article class="month-card"><span>APR</span><h3>Tamil New Year</h3><p>Chithirai new year observances and festive visits.</p></article>
-    <article class="month-card"><span>JUL–AUG</span><h3>Aadi season</h3><p>Devotional practices and special observances.</p></article>
-    <article class="month-card"><span>SEP–OCT</span><h3>Navaratri</h3><p>Golus, music, prayer, and cultural celebration.</p></article>
-    <article class="month-card"><span>OCT–NOV</span><h3>Deepavali</h3><p>Lamps, sweets, visiting, and celebration.</p></article>
-    <article class="month-card"><span>NOV–DEC</span><h3>Karthigai Deepam</h3><p>Light-centered worship and shared tradition.</p></article>
-    <article class="month-card"><span>DEC–JAN</span><h3>Margazhi</h3><p>Music, devotion, kolam, and a reflective festive atmosphere.</p></article>
-  </div>
-</section>
-
-<section class="section tint">
-  <div class="container split-grid align-start">
-    <div class="content-panel">
-      <span class="eyebrow">Useful notes</span>
-      <h2>For precise observance dates</h2>
-      <ul class="clean-list">
-        <li>Festival dates may shift by lunar/solar calculations.</li>
-        <li>Amavasai and Pournami should be checked using a live panchangam for Victoria time.</li>
-        <li>When VITS publishes event dates, those should take priority for local community gatherings.</li>
-      </ul>
-    </div>
-    <div class="quote-card warm">
-      <h3>Good future addition</h3>
-      <p>Once you choose a preferred source, this page can later include a live embedded Tamil calendar or a VITS event calendar for the year.</p>
-    </div>
-  </div>
-</section>
+<section class="section"><div class="container month-grid"><article class="month-card"><span>JAN</span><h3>Tamil Heritage Month</h3><p>Community sharing, identity, arts, and language pride in Canada.</p></article><article class="month-card highlight"><span>JAN</span><h3>Thai Pongal</h3><p>Harvest gratitude, sweet pongal, kolam, sugarcane, and family gathering.</p></article><article class="month-card"><span>APR</span><h3>Tamil New Year</h3><p>Chithirai new year observances and festive visits.</p></article><article class="month-card"><span>JUL–AUG</span><h3>Aadi season</h3><p>Devotional practices and special observances.</p></article><article class="month-card"><span>SEP–OCT</span><h3>Navaratri</h3><p>Golus, music, prayer, and cultural celebration.</p></article><article class="month-card"><span>OCT–NOV</span><h3>Deepavali</h3><p>Lamps, sweets, visiting, and celebration.</p></article><article class="month-card"><span>NOV–DEC</span><h3>Karthigai Deepam</h3><p>Light-centered worship and shared tradition.</p></article><article class="month-card"><span>DEC–JAN</span><h3>Margazhi</h3><p>Music, devotion, kolam, and a reflective festive atmosphere.</p></article></div></section>
+<section class="section tint"><div class="container split-grid align-start"><div class="content-panel"><span class="eyebrow">Useful notes</span><h2>For precise observance dates</h2><ul class="clean-list"><li>Festival dates may shift by lunar/solar calculations.</li><li>Amavasai and Pournami should be checked using a live panchangam for Victoria time.</li><li>When VITS publishes event dates, those should take priority for local community gatherings.</li></ul></div><div class="quote-card warm"><h3>Good future addition</h3><p>This page can later include a live embedded Tamil calendar or a VITS event calendar for the year.</p><p class="muted">For now, the two buttons above provide the most reliable current dates.</p></div></div></section>
 </main>
 <footer class="footer">
   <div class="container footer-grid">
@@ -81,13 +49,12 @@
         <span class="brand-text">VITS<small>Vancouver Island Tamil Sangam</small></span>
       </a>
       <p>Celebrating Tamil heritage and helping families, students, and newcomers build belonging across Victoria and Vancouver Island.</p>
-      <p class="muted small">This community site offers general guidance. Please confirm dates, services, and official procedures using the linked resources.</p>
+      <p class="muted small">Please verify dates, services, and official procedures using the linked resources.</p>
     </div>
     <div>
       <h4>Explore</h4>
       <a href="about.html">About VITS</a>
-      <a href="culture.html">Tamil heritage</a>
-      <a href="tamilnadu.html">Tamil Nadu</a>
+      <a href="culture.html">Heritage & Tamil Nadu</a>
       <a href="calendar.html">Festival calendar</a>
     </div>
     <div>
